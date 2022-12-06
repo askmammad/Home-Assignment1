@@ -7,12 +7,12 @@ namespace Add
         {
             int a, b;
             int sum;
-            Console.Write("Enter first number: ");
+            Console.Write("Birinci reqemi daxil edin: ");
             a = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter second number: ");
+            Console.Write("İkinci reqemi daxil edin: ");
             b = Convert.ToInt32(Console.ReadLine());
             sum = (a + b);
-            Console.WriteLine("Sum is: " + sum);
+            Console.WriteLine("Cem beraberdir: " + sum);
         }
     }
 }
